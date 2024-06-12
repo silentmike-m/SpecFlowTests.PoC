@@ -33,7 +33,7 @@ internal sealed class ApiExceptionFilterAttribute : ExceptionFilterAttribute
 
         var problemDetails = context.Exception switch
         {
-            EntityNotFoundException => this.CreateProblemDetails(context, HttpStatusCode.BadRequest, "Entity not found"),
+            EntityNotFoundException => this.CreateProblemDetails(context, HttpStatusCode.NotFound, "Entity not found"),
             _ => this.CreateProblemDetails(context, HttpStatusCode.InternalServerError, "Unexpected error"),
         };
 

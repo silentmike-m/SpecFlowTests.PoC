@@ -13,7 +13,10 @@ public sealed class CustomersController : ApiControllerBase
     {
         var id = await this.Mediator.Send(request, cancellationToken);
 
-        return this.CreatedAtAction(nameof(this.GetCustomer), id);
+        return this.CreatedAtAction(nameof(this.GetCustomer), new
+        {
+            customerId = id.ToString(),
+        });
     }
 
     [HttpDelete(Name = "DeleteCustomer")]

@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 
 public sealed record AddCustomer : IRequest<Guid>
 {
-    [JsonPropertyName("fist_name")]
+    [JsonPropertyName("first_name")]
     public required string FirstName { get; init; }
 
     [JsonPropertyName("last_name")]
