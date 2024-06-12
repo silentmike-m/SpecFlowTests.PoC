@@ -1,0 +1,6 @@
+@SpecFlowTests.PoC.WebApi_HostAddress = http://localhost:5086
+
+GET {{SpecFlowTests.PoC.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

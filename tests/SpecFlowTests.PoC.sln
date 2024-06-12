@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowTests.PoC.SmokeTests", "SpecFlowTests.PoC.SmokeTests\SpecFlowTests.PoC.SmokeTests.csproj", "{1688534F-CD11-41F7-881C-5030D56DFA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecFlowTests.PoC.WebApi", "..\src\SpecFlowTests.PoC.WebApi\SpecFlowTests.PoC.WebApi.csproj", "{3076EBF3-9823-4B11-8AEC-B28F028529C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1688534F-CD11-41F7-881C-5030D56DFA38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1688534F-CD11-41F7-881C-5030D56DFA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1688534F-CD11-41F7-881C-5030D56DFA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1688534F-CD11-41F7-881C-5030D56DFA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3076EBF3-9823-4B11-8AEC-B28F028529C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3076EBF3-9823-4B11-8AEC-B28F028529C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3076EBF3-9823-4B11-8AEC-B28F028529C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3076EBF3-9823-4B11-8AEC-B28F028529C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
